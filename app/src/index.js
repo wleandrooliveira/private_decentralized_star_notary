@@ -26,20 +26,19 @@ const App = {
     }
   },
 
-  setStatus: function(message) {
-    const status = document.getElementById("status");
+  setStatus: function(message,htmlID) {
+    const status = document.getElementById(htmlID);
     status.innerHTML = message;
   },
+
 
   createStar: async function() {
     const { createStar } = this.meta.methods;
     const name = document.getElementById("starName").value;
     const id = document.getElementById("starId").value;
     await createStar(name, id).send({from: this.account});
-    App.setStatus("New Star Owner is " + this.account + ".");
+    App.setStatus("New Star Owner is " + this.account + ".","status");
   },
-
-  // Implement Task 4 Modify the front end of the DAPP
 
   // Implement Task 4 Modify the front end of the DAPP
   lookUp: async function (){

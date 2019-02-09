@@ -4,7 +4,13 @@
 StarNotary smart contract allows for the ownership and transfer of stars, that is deployed on the Rinkeby public test network. The star notary contract is inherited from <a href = http://erc721.org/>ERC721 </a>, that is a minimum interface smart contract that allows for unique tokens to be managed, owned and traded.
 
 Supporting courses:
-* Identity and Smart Contracts
+* Identity and Smart 
+
+#### Project Information:
+
+ - ERC-721 Token Name: DEWTECH
+ - ERC-721 Token Symbol: DEW
+ - Token Address on the rinkeby Network: 0x2D98d975e01c55FC9537c1987D9C9d65c3e3D2a1
 
 Follow this step below to deployment and test this project.
 
@@ -16,6 +22,8 @@ Follow this step below to deployment and test this project.
 _My Versions_
 
 ``Token address 0x2D98d975e01c55FC9537c1987D9C9d65c3e3D2a1``
+
+`` Contract 0x39bcA5735517292C58eb0d5AAADEcad1dC4328d4  ``
 
 ``openzeppelin-solidity v2.1.2``
 
