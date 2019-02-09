@@ -54,7 +54,7 @@ module.exports = {
     },
      rinkeby: {
      provider: function() {
-         return new HDWalletProvider("universe chase fatal birth human scrub goose elder ahead elevator cotton repair","https://rinkeby.infura.io/v3/69abef86439a47858519092ddceeb548")
+         return new HDWalletProvider("<YOUR SEED WORD>","https://rinkeby.infura.io/v3/69abef86439a47858519092ddceeb548")
        },
        network_id: '4',
        gas: 4500000,
