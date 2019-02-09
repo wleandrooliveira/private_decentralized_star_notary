@@ -80,19 +80,24 @@ Go to the truffle development console and copy a private key. This key will be u
 
 ```
 $ truffle develop
+
 ```
-Copy private key 
+Copy private key.
+
+
 ![Alt text](https://github.com/wleandrooliveira/private_decentralized_star_notary/blob/master/images/develop.PNG)
+
 
 Paste private key in Metamask to import an account.
 
 ![Alt text](https://github.com/wleandrooliveira/private_decentralized_star_notary/blob/master/images/paste.PNG)
 
-Open new console or terminal and access folder app in project
+Open new console or terminal and access folder app in project.
 
 ```
 $ cd app
 $ npm run dev
+
 ```
 To access DAPP, access in your browser to http://127.0.0.1:8080
 Accept request to connect a account imported on your matemask.
@@ -104,13 +109,16 @@ notification allowing you to confirm a contract interaction.
 
 ![Alt text](https://github.com/wleandrooliveira/private_decentralized_star_notary/blob/master/images/star.PNG)
 
-Confirm Contract Transaction
+Confirm Contract Transaction.
+
 ![Alt text](https://github.com/wleandrooliveira/private_decentralized_star_notary/blob/master/images/confirm.PNG)
 
 Looking up a star by id.
+
 ![Alt text](https://github.com/wleandrooliveira/private_decentralized_star_notary/blob/master/images/lookup.PNG)
 
 You can see you transaction in Metamask.
+
 ![Alt text](https://github.com/wleandrooliveira/private_decentralized_star_notary/blob/master/images/transact.PNG)
 
 ### Deploying Contract to the Rinkeby public test network
@@ -140,6 +148,7 @@ In other console or terminal
 ```
 $ cd app
 $ npm run dev
+
 ```
 __Note__ <a href = "https://faucet.rinkeby.io/">Rinkeby faucet</a> must be used to get test ether to make transactions.
 
