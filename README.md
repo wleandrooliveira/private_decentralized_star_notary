@@ -27,13 +27,13 @@ _My Versions_
 
 ``webpack (web3) 4.28.1``
 
-1) Download project
+### 1) Download project
 
 ```
 $ git clone https://github.com/wleandrooliveira/private_decentralized_star_notary.git
 ```
 
-2) Install dependencies
+### 2) Install dependencies
 
 ```
 $ cd private_decentralized_star_notary
@@ -62,7 +62,7 @@ Open another terminal window and go inside the project directory, and run:
 
     npm run dev
 ```
-3) Run application with Metamask
+### 3) Run application with Metamask
 
 Make sure you have <a href = "https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn">metaMask </a> chrome extension install
 
