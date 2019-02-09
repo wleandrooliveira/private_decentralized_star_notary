@@ -57,7 +57,7 @@ __Note__ you will need web3 for the Front End of the DAPP, this should automatic
 Then run   <br>   ```npm install webpack-dev-server```
 
 Open another terminal window and go inside the project directory, and run:
-
+```
     cd app
 
     npm run dev
@@ -77,6 +77,7 @@ If successful you should see you are connect to the local network.
 Now we need to import one of are truffle address so we can create some stars.
 
 Go to the truffle development console and copy a private key. This key will be used to import the address into metaMask. Go back to metamask and click on the circle of colors then import account. __Note__ Make sure your still on the local network.  Paste your private key then select import. If done right you should see your new test account with 100 ETH. Make sure you have this account selected.
+
 ```
 $ truffle develop
 ```
